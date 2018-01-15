@@ -44,13 +44,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onSliderChange(_ sender: UISlider) {
-        fontSizeLabel.text = "\(sender.value)"
+        fontSizeLabel.text = "\(Int(sender.value))"
         animalNameLabel.font = UIFont.systemFont(ofSize: CGFloat(sender.value))
     }
     
     @IBAction func onSwitchChange(_ sender: UISwitch) {
-        slider.isHidden = !sender.isOn
-        fontSizeLabel.isHidden = !sender.isOn
+        slider.isHidden = sender.isOn
+        fontSizeLabel.isHidden = sender.isOn
     }
     
     @IBAction func onColorCtrlTap(_ sender: UISegmentedControl) {
