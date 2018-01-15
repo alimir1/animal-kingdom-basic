@@ -36,3 +36,6 @@ Download images for the buttons [here](https://github.com/alimir1/animal-kingdom
 
 ## Segmented Control Index
 if sender.selectedSegmentIndex == 0, do something...
+
+## Updating Font
+animalNameLabel.font = UIFont.systemFont(ofSize: CGFloat(sender.value))
