@@ -34,8 +34,8 @@ Download images for the buttons [here](https://github.com/alimir1/animal-kingdom
 ### Setting image to button programatically
 <img src='http://i.imgur.com/NkWHpFi.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-## Segmented Control Index
+### Segmented Control Index
 if sender.selectedSegmentIndex == 0, do something...
 
-## Updating Font
+### Updating Font
 animalNameLabel.font = UIFont.systemFont(ofSize: CGFloat(sender.value))
